@@ -8,9 +8,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/_73385d2a6dd10850b68ab2bea04f6e0" />
+        android:layout_width="524dp"
+        android:layout_height="1007dp"
+        app:srcCompat="@drawable/_73385d2a6dd10850b68ab2bea04f6e0"
+        tools:layout_editor_absoluteX="-74dp"
+        tools:layout_editor_absoluteY="-73dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -64,19 +66,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.365" />
-
-    <TextView
-        android:id="@+id/txtvacma"
-        android:layout_width="370dp"
-        android:layout_height="61dp"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.341"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.467" />
 
     <ImageView
         android:id="@+id/imageView5"

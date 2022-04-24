@@ -10,16 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Parcial_II">
         <activity
-            android:name=".members"
+            android:name=".Integra"
             android:exported="false" />
         <activity
             android:name=".data"
-            android:exported="false" />
-        <activity
-            android:name=".registro"
-            android:exported="false" />
-        <activity
-            android:name=".infor"
             android:exported="false" />
         <activity
             android:name=".mascotasplash"

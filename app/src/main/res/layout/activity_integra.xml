@@ -5,43 +5,46 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/material_dynamic_primary90"
-    tools:context=".members">
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="369dp"
-        android:layout_height="145dp"
-        android:text="Fatima del Carmen Ayala Santos  SMIS003321"
-        android:textColor="#000000"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.728" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="357dp"
-        android:layout_height="129dp"
-        android:text="Gilmar Adriel González Romero       SMIS061221"
-        android:textColor="#000000"
-        android:textSize="34sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.448" />
+    tools:context=".Integra">
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="349dp"
-        android:layout_height="164dp"
+        android:id="@+id/imgugb"
+        android:layout_width="378dp"
+        android:layout_height="215dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094"
+        app:srcCompat="@drawable/logo_ugb"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/txtad"
+        android:layout_width="373dp"
+        android:layout_height="103dp"
+        android:text="@string/gilmar_adriel_gonz_lez_romero_smis061221"
+        android:textColor="#000000"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/txtfat"
+        android:layout_width="381dp"
+        android:layout_height="95dp"
+        android:text="@string/fatima_del_carmen_ayala_santos_smis003321"
+        android:textColor="#000000"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.114"
-        app:srcCompat="@drawable/logo_ugb" />
+        app:layout_constraintVertical_bias="0.743" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

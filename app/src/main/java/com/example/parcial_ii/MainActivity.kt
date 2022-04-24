@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
         val guardar:Button = btnar
         val mostrar:Button = btnmost
 
+
+
         @Suppress("DEPRECATION")
         val prefs = PreferenceManager.getDefaultSharedPreferences(this)
 
@@ -26,13 +28,13 @@ class MainActivity : AppCompatActivity() {
             val name:String = etxnom.text.toString()
             val type:String = etxtip.text.toString()
             val pray:String = etxraz.text.toString()
-            val vac:String = etxvac.text.toString()
+
 
             val editor = prefs.edit()
             editor.putString("key1", "Tipo de Mascota: $type")
             editor.putString("key2", "Nombre de la Mascota: $name")
             editor.putString("key3", "Raza del Animal: $pray")
-            editor.putString("Key4", "Tipo de Vacuna: $vac")
+
             editor.apply()
 
             Toast.makeText(this,"Los cambios han sido guardado",LENGTH_LONG).show()
@@ -44,24 +46,14 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-    }
-    override fun onCreateOptionsMenu(menu: Menu): Boolean {
-        val inflater: MenuInflater = menuInflater
-        inflater.inflate(R.menu.menu, menu)
-        return true
-    }
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        // Handle item selection
-        return when (item.itemId) {
-            R.id.info -> {
-                val intent = Intent(this, members::class.java).apply {
-
-                }
-                startActivity(intent)
-                true
-            }
-
-            else -> super.onOptionsItemSelected(item)
+        val btnint = findViewById<Button>(R.id.btnint)
+        btnint.setOnClickListener{
+            val inic = Intent(this, Integra::class.java)
+            startActivity(inic)
         }
+
+
     }
+
+
 }
