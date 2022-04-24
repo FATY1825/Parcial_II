@@ -12,9 +12,10 @@
         android:layout_height="915dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintHorizontal_bias="0.352"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.083"
         app:srcCompat="@drawable/fondo" />
 
     <TextView
@@ -36,7 +37,7 @@
         android:layout_height="134dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.775"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -58,19 +59,19 @@
         android:id="@+id/btnmost"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MOSTRAR REGISTRO"
+        android:text="MOSTRAR DATOS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.579" />
+        app:layout_constraintVertical_bias="0.615" />
 
     <Button
         android:id="@+id/btnar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ARCHIVAR REGISTRO"
+        android:text="GUARDAR LOS DATOS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.479"
@@ -87,10 +88,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.327"
+        app:layout_constraintHorizontal_bias="0.324"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.107" />
+        app:layout_constraintVertical_bias="0.137" />
 
     <EditText
         android:id="@+id/etxtip"
@@ -115,15 +116,15 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.234" />
+        app:layout_constraintVertical_bias="0.267" />
 
     <EditText
         android:id="@+id/etxnom"
-        android:layout_width="337dp"
-        android:layout_height="50dp"
+        android:layout_width="332dp"
+        android:layout_height="51dp"
         android:backgroundTint="#000000"
         android:ems="10"
         android:inputType="textPersonName"
@@ -138,29 +139,28 @@
         android:id="@+id/txtraz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Raza del Animal"
+        android:text="Nombre de la Vacuna"
         android:textColor="#000000"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintHorizontal_bias="0.192"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.383" />
+        app:layout_constraintVertical_bias="0.412" />
 
     <EditText
-        android:id="@+id/etxraz"
-        android:layout_width="339dp"
-        android:layout_height="49dp"
+        android:id="@+id/etxvacu"
+        android:layout_width="345dp"
+        android:layout_height="53dp"
         android:backgroundTint="@color/black"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtraz"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.054" />
 
     <Button
         android:id="@+id/btnint"

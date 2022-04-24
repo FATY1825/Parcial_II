@@ -14,7 +14,7 @@ class data : AppCompatActivity() {
 
         val type1: TextView = txtypema
         val name1: TextView = txtnamema
-        val pray1: TextView = txtpayma
+        val pray1: TextView = txtvacun
 
         @Suppress("DEPRECATION")
         val prefs = PreferenceManager.getDefaultSharedPreferences(this)

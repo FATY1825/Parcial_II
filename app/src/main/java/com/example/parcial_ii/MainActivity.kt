@@ -16,30 +16,30 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val guardar:Button = btnar
-        val mostrar:Button = btnmost
+        val save:Button = btnar
+        val show:Button = btnmost
 
 
 
         @Suppress("DEPRECATION")
         val prefs = PreferenceManager.getDefaultSharedPreferences(this)
 
-        guardar.setOnClickListener{
+        save.setOnClickListener{
             val name:String = etxnom.text.toString()
             val type:String = etxtip.text.toString()
-            val pray:String = etxraz.text.toString()
+            val vaccine:String = etxvacu.text.toString()
 
 
             val editor = prefs.edit()
             editor.putString("key1", "Tipo de Mascota: $type")
             editor.putString("key2", "Nombre de la Mascota: $name")
-            editor.putString("key3", "Raza del Animal: $pray")
+            editor.putString("key3", "Nombre de la Vacuna: $vaccine")
 
             editor.apply()
 
             Toast.makeText(this,"Los cambios han sido guardado",LENGTH_LONG).show()
         }
-        mostrar.setOnClickListener{
+        show.setOnClickListener{
             val intent = Intent(this, data::class.java).apply {
 
             }

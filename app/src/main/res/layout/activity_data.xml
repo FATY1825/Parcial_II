@@ -8,11 +8,13 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="524dp"
-        android:layout_height="1007dp"
-        app:srcCompat="@drawable/_73385d2a6dd10850b68ab2bea04f6e0"
-        tools:layout_editor_absoluteX="-74dp"
-        tools:layout_editor_absoluteY="-73dp" />
+        android:layout_width="608dp"
+        android:layout_height="1273dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo" />
 
     <TextView
         android:id="@+id/textView4"
@@ -55,7 +57,7 @@
         app:layout_constraintVertical_bias="0.265" />
 
     <TextView
-        android:id="@+id/txtpayma"
+        android:id="@+id/txtvacun"
         android:layout_width="370dp"
         android:layout_height="61dp"
         android:textColor="#000000"
@@ -69,12 +71,12 @@
 
     <ImageView
         android:id="@+id/imageView5"
-        android:layout_width="337dp"
-        android:layout_height="279dp"
+        android:layout_width="355dp"
+        android:layout_height="298dp"
+        android:layout_marginStart="28dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.915"
+        app:layout_constraintVertical_bias="0.913"
         app:srcCompat="@drawable/vacu" />
 </androidx.constraintlayout.widget.ConstraintLayout>
